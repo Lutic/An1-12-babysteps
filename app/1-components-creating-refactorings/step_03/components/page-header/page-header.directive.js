@@ -8,6 +8,8 @@
 	function pageHeader() {
 		return {
 			scope: true,
+			controller: "Header",
+			controllerAs: "$ctrl",
 			templateUrl: "components/page-header/page-header.html"
 		};
 	}

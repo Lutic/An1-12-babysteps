@@ -8,8 +8,8 @@
 </head>
 <body>
 	<h1>Step 01 - Controller Aliasing</h1>
-	<div ng-controller="Header">
-		<p>{{getText()}}</p>
+	<div ng-controller="Header as $ctrl">
+		<p>{{$ctrl.getText()}}</p>
 	</div>
 
 	<script src="./../../vendor/angular/angular.min.js"></script>
